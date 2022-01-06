@@ -1,0 +1,21 @@
+// scss main parent 
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  user-select: none;
+  scroll-behavior: smooth;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+// ini adalah file scss global yang menampung semua file scss.
+@import "global";
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  text-rendering: auto;
+  box-sizing: border-box;
+}
+
+
